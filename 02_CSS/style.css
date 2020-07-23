@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tituloabajo{
+    text-align: center;
+}
+.footer{
+    background-color: cadetblue;
+    height: 70px;
+    margin-top: -4px;
+}
