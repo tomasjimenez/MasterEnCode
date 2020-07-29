@@ -1,0 +1,12 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descripcion{
+    display: block;
+}
+
+.entrada{
+    display: block; 
+    margin-top: 10px;
+}

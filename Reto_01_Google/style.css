@@ -49,25 +49,33 @@ body {
     justify-content: center;
 }
 .logotipo{
-
+    margin-bottom: 20px;
     width: 500px;
     height: 80px;
     display: flex;
     justify-content: center;
 }
 .buscador{
-
     width: 500px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.mic{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .buscador input{
     border-radius: 20px;
     height: 35px;
     width: 500px;
-    box-shadow: 5px 2px 10px grey;
+    margin-right: -40px;
+    margin-left: -20px;
 }
 ::placeholder {
     color: gray;
@@ -76,9 +84,9 @@ body {
   }
 
 .iconosg{
-    border: 1px solid;
     width: 500px;
     height: 305px;  
+    margin-top: 20px;
 }
 .iconos1{
     height: 150px;
@@ -89,7 +97,6 @@ body {
 }
 
 .i1{
-    border: 1px solid;
     height: 120px;
     width: 90px;
     display: flex;
@@ -107,7 +114,6 @@ body {
      justify-content: center;
 }
 .i1texto{
-    border: 1px solid;
     height: 30px;
     width: 90px;
     display: flex;
@@ -119,7 +125,6 @@ body {
     color: white;
 }
 .i2{
-    border: 1px solid;
     height: 120px;
     width: 90px;
     display: flex;
@@ -138,7 +143,6 @@ body {
      justify-content: center;
 }
 .i2texto{
-    border: 1px solid;
     height: 30px;
     width: 90px;
     display: flex;
@@ -150,16 +154,61 @@ body {
     color: white;
 }
 .i3{
-    border: 1px solid;
     height: 120px;
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.i3circulo{
+    width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.i3texto{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i3texto a{
+    text-decoration: none;
+    color: white;
 }
 .i4{
-    border: 1px solid;
     height: 120px;
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
-
+.i4circulo{
+    width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.i4texto{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i4texto a{
+    text-decoration: none;
+    color: white;
+}
 .iconos2 {
     height: 150px;
     width: 500px;
@@ -169,29 +218,126 @@ body {
 }
 
 .i5{
-    border: 1px solid;
     height: 120px;
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.i5circulo{
+    width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.i5texto{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i5texto a{
+    text-decoration: none;
+    color: white;
 }
 .i6{
-    border: 1px solid;
     height: 120px;
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.i6circulo{
+    width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.i6texto{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i6texto a{
+    text-decoration: none;
+    color: white;
 }
 .i7{
-    border: 1px solid;
     height: 120px;
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.i7circulo{
+    width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.i7texto{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i7texto a{
+    text-decoration: none;
+    color: white;
 }
 .i8{
-    border: 1px solid;
     height: 120px;
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
-
-
-
+.i8circulo{
+    width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.i8circulo img{
+    margin-right: 2px;
+}
+.i8texto{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i8texto a{
+    text-decoration: none;
+    color: white;
+}
 .pie{
-    border: 1px solid;
-    height: 50px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.pie a{
+    text-decoration: none;
+    color: white;
 }
