@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: purple;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.hijo{
+height: 150px;
+width: 150px;
+background-color: orange;
+border: 1px solid black;
+}
